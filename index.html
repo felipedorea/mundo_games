@@ -7,11 +7,10 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
-
-    <h1>Pedidos de Viagens</h1>
 
     <form action="https://formsubmit.co/felipeathome@outlook.com" method="post">
+
+        <h1 style="text-align: center;">Pedidos de Viagens</h1>
 
         <label for="name">Escreva o Seu nome: </label>
         <input type="text" name="name" placeholder="Escreva o seu nickname ou nome..." required>
@@ -35,6 +34,7 @@
         </select>
         <label for="message">Escreva a sua solicitação: </label>
         <textarea name="message" id="message" placeholder="Escreva aqui a sua solicitação" required></textarea>
+        <input type="hidden" name="_next" value="http://127.0.0.1:5500//obrigado.html">
         <button type="submit">Enviar Solicitação</button>
 
     </form>

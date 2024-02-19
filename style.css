@@ -12,10 +12,20 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    background-image: url(imagens/G7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
 
 form{
     width: 500px;
+    background-color: rgba(92, 92, 92, 0.801);
+    padding: 10px;
+    box-shadow: 2px 2px 15px rgba(0, 0, 255, 0.548);
+    border: 5px solid rgba(0, 0, 255, 0.548);
+    border-radius: 8px;
+    margin-top: 10px;
 }
 
 input, textarea, label{
@@ -52,4 +62,25 @@ button{
     color: white;
     font-weight: bold;
     border: 5px solid black;
+} 
+
+select{
+    width: 50%;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+#obrigado{
+    background-color: rgb(167, 167, 167);
+    padding: 80px;
+    box-shadow: 2px 2px 15px rgba(0, 0, 255, 0.548);
+    border: 5px solid rgba(0, 0, 255, 0.548);
+    border-radius: 8px;
+}
+
+#obrigado::before{
+    content: '⛟';
+    font-size: 80px;
+    display: block;
+    text-align: center;
 }
