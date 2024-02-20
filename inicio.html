@@ -16,21 +16,21 @@
         </article>
     </header>
 
-    <form action="https://formsubmit.co/felipeathome@outlook.com" method="post">
+    <form action="https://formsubmit.co/zozopasa@mailgolem.com" method="post">
 
         <h1 style="text-align: center;">Pedidos de Viagens</h1>
 
         <label for="name">Escreva o Seu nome: </label>
-        <input type="text" name="name" placeholder="Escreva o seu nickname ou nome..." required>
-        <label for="name">Escreva o Seu Email: </label>
-        <input type="email" name="email" placeholder="Escreva o seu Email..." required>
-        <label for="onibus">Diga qual onibus deseja a viagem: </label>
+        <input type="text" name="name" id="nome" placeholder="Escreva o seu nickname ou nome..." required>
+        <label for="name">Escreva o Seu Email: <span>*Coloque um email válido para não correr riscos de não recebermos*</span></label>
+        <input type="email" name="email" id="email" placeholder="Escreva o seu Email..." required>
+        <label for="onibus">Selecione o ônibus desejado: </label>
         <select name="onibus" id="onibus" required>
             <option value="G7 1800 DD">G7 1800 DD Scania</option>
             <option value="G7 1200 LD">G7 1200 LD Volvo</option>
             <option value="G7 1600 LD">G7 1600 LD Mercedes</option>
         </select>
-        <label for="onibus">Diga qual mapa deseja a viagem: </label>
+        <label for="onibus">Selecione o mapa desejado: </label>
         <select name="mapa" id="mapa" required>
             <option value="eaa">EAA</option>
             <option value="bahia">BAHIA</option>
@@ -41,13 +41,14 @@
             <option value="base">MAPA BASE</option>
         </select>
         <label for="message">Escreva a sua solicitação: </label>
-        <textarea name="message" id="message" placeholder="Escreva aqui a sua solicitação" required></textarea>
-        <input type="hidden" name="_next" value="https://felipedorea.github.io/site-world/obrigado.html">
+        <textarea name="message" id="message" placeholder="Escreva aqui a sua solicitação
+Exemplo: Rio de Janeiro - Natal" required></textarea>
+        <!-- <input type="hidden" name="_next" value="https://felipedorea.github.io/site-world/obrigado.html"> -->
         <button type="submit">Enviar Solicitação</button>
 
     </form>
 
 
-
+<script src="script.js"></script>
 </body>
 </html>

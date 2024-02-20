@@ -125,6 +125,12 @@ select{
     color: red;
 }
 
+span{
+    color: rgb(151, 2, 2);
+    font-size: 12px;
+    display: block;
+}
+
 @media screen and (max-width: 768px){
     form{
         width: 100%;
